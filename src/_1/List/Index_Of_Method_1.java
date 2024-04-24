@@ -11,9 +11,11 @@ public class Index_Of_Method_1 {
 			list.add("B");
 			list.add("C");
 			list.add("D");
-			System.out.println(list.indexOf("A") > 0); // true
+			System.out.println(list);
 
-			System.out.println(list.indexOf("Z") > 0); // false
+			System.out.println(list.indexOf("A")); // true
+			System.out.println(list.lastIndexOf("A"));
+			System.out.println(list.indexOf("Z")); // false
 		}
 	}
 }

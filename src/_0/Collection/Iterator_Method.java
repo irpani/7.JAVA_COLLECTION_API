@@ -29,6 +29,7 @@ public class Iterator_Method {
 			Student student = itr.next();
 			System.out.println("age=" + student.getAge() + " name=" + student.getName() + " address="
 					+ student.getAddress().getAddress());
+
 		}
 
 	}

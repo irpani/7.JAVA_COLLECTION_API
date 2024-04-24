@@ -32,9 +32,9 @@ public class clear_Method {
 		list1.add("Test11");
 		list1.add("Test21");
 
-		list.addAll(1, list1);
-
-		// System.out.println(list);
+		list.addAll(list1);
+		list.addAll(5, list1);
+		System.out.println(list);
 
 		list.clear();
 		System.out.println(list);
